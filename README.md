@@ -73,23 +73,22 @@ See `docs/dax_measures.md` for full list and code. Examples:
 
 ## Screenshots
 
-#### Overview Page
-![Overview Page](docs/screenshots/Overview.png)
+## 📸 Dashboard Screenshots
 
-#### User Insights
-![User Insights](docs/screenshots/Users.png)
-
-#### Merchant Insights
-![Merchant Insights](docs/screenshots/Merchants.png)
-
-#### Payments Analysis
-![Payments Analysis](docs/screenshots/Payments.png)
-
-#### Trends Dashboard
-![Trends Dashboard](docs/screenshots/Trends.png)
-
-![Full Trends](docs/screenshots/FullTrends.png)
-
+<table>
+<tr>
+<td><img src="docs/screenshots/Overview.png" width="500" /></td>
+<td><img src="docs/screenshots/Users.png" width="500" /></td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/Merchants.png" width="500" /></td>
+<td><img src="docs/screenshots/Payments.png" width="500" /></td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/Trends.png" width="500" /></td>
+<td><img src="docs/screenshots/FullTrends.png" width="500" /></td>
+</tr>
+</table>
 
 
 ## Data Dictionary
