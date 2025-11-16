@@ -1,0 +1,25 @@
+{
+  "name": "Google Pay FinTech Theme",
+  "dataColors": [
+    "#4285F4",
+    "#34A853",
+    "#FBBC05",
+    "#EA4335",
+    "#0F9D58",
+    "#F4B400",
+    "#DB4437"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#202124",
+  "tableAccent": "#4285F4",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "titleText": [{ "fontFamily": "Segoe UI", "color": "#202124", "fontSize": 14, "fontWeight": "bold" }],
+        "labelColor": [{ "color": "#5F6368" }],
+        "axisColor": [{ "color": "#5F6368" }],
+        "gridlineColor": [{ "color": "#E0E0E0" }]
+      }
+    }
+  }
+}
