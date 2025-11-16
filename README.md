@@ -1,107 +1,158 @@
-# FinPay Analytics Dashboard — Google Pay Inspired
+🎨 FinPay Analytics Dashboard
 
-**Author:** Yash Kamble  
-**Tech:** Power BI, Power Query, DAX  
-**Dataset:** Synthetic fintech transactions (120K+ rows)
+Google Pay–Inspired | Built in Power BI
 
----
+📌 Project Overview
 
-## Project Summary
-FinPay is an end-to-end Power BI analytics dashboard inspired by Google Pay. The solution demonstrates data modeling (star schema), DAX measures for business KPIs, UI/UX design, and actionable fintech insights such as top merchants, payment-method performance, promo impact, and time-based trends.
+FinPay Analytics Dashboard is a complete end-to-end Power BI project built using a 120K+ synthetic fintech dataset, modeled and visualized using a design inspired by Google Pay.
 
----
+The dashboard analyzes:
 
-## Repo Structure
+User behavior
+
+Merchant performance
+
+Payment success/failure
+
+Promo usage
+
+Trends (MoM%)
+
+Hour/day activity patterns
+
+Skills demonstrated:
+
+✔ Data cleaning & modeling
+✔ Fact–Dimension schema design
+✔ DAX measure creation
+✔ MoM%, Pareto, and heatmap visuals
+✔ UI/UX following Google Pay theme
+✔ Business insights storytelling
+
+📂 Project Structure
 FinPay-Analysis/
 ├── data/
-│ ├── raw/ # original dataset (transactions_large.csv)
-│ └── transformed/ # exported CSVs from Power BI (fact + dims)
-├── powerbi/ # FinPay_Dashboard.pbix (Power BI file) or Release asset
-├── docs/ # optional: Project report / presentation
-├── scripts/ # optional: dataset generation or ETL scripts
-├── README.md
+│   ├── raw/
+│   │    └── transactions_large.csv
+│   └── transformed/
+│        ├── dim_user.csv
+│        ├── dim_merchant.csv
+│        ├── dim_date.csv
+│        ├── dim_country.csv
+│        ├── dim_device.csv
+│        ├── dim_payment_method.csv
+│        └── fact_transactions.csv
+│
+├── powerbi/
+│   └── FinPay_Dashboard.pbix
+│
+├── docs/
+│   ├── data_dictionary.md
+│   └── screenshots/
+│        ├── Overview.png
+│        ├── Users.png
+│        ├── Merchants.png
+│        ├── Payments.png
+│        ├── Trends.png
+│        └── Banner.png
+│
+├──.gitignore
 ├── LICENSE
-└── .gitignore
+└── README.md
 
+📊 Dashboard Pages
+1️⃣ Overview Page
+Total Revenue
+Transaction Count
+Avg Ticket
+Promo Conversion Rate
+Payment Method Share
+Category Revenue (Pareto)
+Revenue Trend
+📸 Screenshot:
+➡️ <img src="docs/screenshots/Overview.png" width="600">
 
----
+2️⃣ User Insights
+Active users trend
+Returning users
+Promo vs Non-Promo users
+Users by device
+Users by country
+Top users by revenue
+Hour vs Day heatmap
+📸 Screenshot:
+➡️ <img src="docs/screenshots/Users.png" width="600">
 
-## Dashboard Pages & Purpose
-- **Overview** — Executive KPIs, category & merchant summaries.
-- **User Insights** — Active users, retention, device & country splits.
-- **Merchant Insights** — Merchant revenue, success rates, top performers.
-- **Payments** — Payment method share, failures, revenue split.
-- **Trends** — Revenue & transaction trends, MOM%, promo impact, hour-day heatmap.
+3️⃣ Merchant Insights
+Top merchants by revenue
+Merchant category performance
+Merchant activity patterns
+Promo usage impact
+📸 Screenshot:
+➡️ <img src="docs/screenshots/Merchants.png" width="600">
 
----
+4️⃣ Payment Insights
+Transaction success rate
+Failed transaction reasons
+Refunds
+Revenue by payment method
+📸 Screenshot:
+➡️ <img src="docs/screenshots/Payments.png" width="600">
 
-## Key Features
-- Star schema: `fact_transactions` + `dim_user`, `dim_merchant`, `dim_payment_method`, `dim_country`, `dim_device`, `dim_date`
-- DAX measures: Total Revenue, Transaction Count, Avg Ticket, GP Revenue, Promo Txns, Promo Conversion, Revenue MOM%, Txn MOM%
-- Pareto analysis: identify top 20% merchants driving ~80% revenue
-- Interactive slicers: date, country, payment method, category, promo
-- Heatmap for hour/day peak analysis
-- Clean UI: themed pages, rounded KPI cards, consistent layout
+5️⃣ Trends Page
+Revenue MoM%
+Transaction MoM%
+Promo vs Non-Promo revenue
+Revenue by payment method
+Hour/Day activity heatmap
+📸 Screenshot:
+➡️ <img src="docs/screenshots/Trends.png" width="600">
 
----
+📘 Data Dictionary
+👉 Click: docs/data_dictionary.md
 
-## How to run / reproduce
-1. If PBIX is included: open `powerbi/FinPay_Dashboard.pbix` in Power BI Desktop.  
-2. If only transformed CSVs: open Power BI → Get Data → CSV and load files from `data/transformed/`.  
-3. Ensure relationships: `dim_date[Date]` → `fact_transactions[transaction_ts]` (1:*), and each dim to fact on their key.
-4. Refresh visuals and use slicers to explore.
+🔧 How to Use This Project
+1. Clone the repository
+git clone https://github.com/yashodip05/FinPay-Analysis.git
 
----
+2. Open the Power BI file
+📄 PBIX File:
+👉 powerbi/FinPayDashboard.pbix
 
-## Data (short)
-Main raw columns:
-`Transaction_ID, User_ID, Merchant_ID, amount, currency, payment_method, status, transaction_ts, category, country, device_type, is_promo_used`
+3. Load the Transformed Data
+All CSVs used in the model:
+👉 data/transformed/
 
-Transformed tables (in `data/transformed/`):
-- `fact_transactions.csv` — cleaned fact table (one row per transaction)
-- `dim_user.csv`, `dim_merchant.csv`, `dim_payment_method.csv`, `dim_country.csv`, `dim_device.csv`, `dim_date.csv`
+Raw data:
+👉 data/raw/transactions_large.csv
 
----
+4. Explore & Modify
+You may add:
+✔ New visuals
+✔ Additional DAX measures
+✔ Themes
+✔ More data sources
 
-## DAX Measures (highlight)
-See `docs/dax_measures.md` for full list and code. Examples:
-- `Total Revenue = SUM(fact_transactions[amount])`
-- `Transaction Count = COUNTROWS(fact_transactions)`
-- `Revenue MOM%` and `Txn MOM%` using `YearMonth` logic.
+🏷 Repository Topics
+powerbi
+data-analysis
+data-visualization
+analytics-dashboard
+fintech
+google-pay
+dax
+business-intelligence
+portfolio-project
 
----
+📜 License
+MIT License
+👉 LICENSE
 
-## Screenshots
+👤 Author
+Created by: Yash Kamble
+If you found this useful, please ⭐ star the repository!
 
-## 📸 Dashboard Screenshots
-
-<table>
-<tr>
-<td><img src="docs/screenshots/Overview.png" width="500"></td>
-<td><img src="docs/screenshots/Users.png" width="500"></td>
-</tr>
-<tr>
-<td><img src="docs/screenshots/Merchants.png" width="500"></td>
-<td><img src="docs/screenshots/Payments.png" width="500"></td>
-</tr>
-<tr>
-<td><img src="docs/screenshots/Trends.png" width="500"></td>
-<td><img src="docs/screenshots/FullTrends.png" width="500"></td>
-</tr>
-</table>
-
-
-## Data Dictionary
-See the full data dictionary here: [docs/data_dictionary.md](docs/data_dictionary.md)
-
----
-
-## License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file.
-
-
----
-
-## Contact
-Yash Kamble — link to LinkedIn / email (www.linkedin.com/in/yashodip-kamble-a0571b246)
-
+⭐ Want to Support?
+Star the repo
+Share on LinkedIn & tag @Yash Kamble
+Fork & build your own version
