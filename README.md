@@ -74,22 +74,22 @@ See `docs/dax_measures.md` for full list and code. Examples:
 ## Screenshots
 
 ## 📸 Dashboard Screenshots
+## 📸 Dashboard Screenshots
 
 <table>
 <tr>
-<td><img src="docs/screenshots/Overview.png" width="500"/></td>
-<td><img src="docs/screenshots/Users.png" width="500"/></td>
+<td><img src="docs/screenshots/Overview.png" width="500"></td>
+<td><img src="docs/screenshots/Users.png" width="500"></td>
 </tr>
 <tr>
-<td><img src="docs/screenshots/Merchants.png" width="500"/></td>
-<td><img src="docs/screenshots/Payments.png" width="500"/></td>
+<td><img src="docs/screenshots/Merchants.png" width="500"></td>
+<td><img src="docs/screenshots/Payments.png" width="500"></td>
 </tr>
 <tr>
-<td><img src="docs/screenshots/Trends.png" width="500"/></td>
-<td><img src="docs/screenshots/FullTrends.png" width="500"/></td>
+<td><img src="docs/screenshots/Trends.png" width="500"></td>
+<td><img src="docs/screenshots/FullTrends.png" width="500"></td>
 </tr>
 </table>
-
 
 ## Data Dictionary
 See the full data dictionary here: [docs/data_dictionary.md](docs/data_dictionary.md)
