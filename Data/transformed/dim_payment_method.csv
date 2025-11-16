@@ -1,0 +1,5 @@
+﻿PaymentMethod_Key,payment_method,Method_Type
+1,google_pay,Digital
+2,card,Card
+3,upi,Digital
+4,wallet,Cash
