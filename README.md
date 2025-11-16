@@ -92,15 +92,14 @@ See `docs/dax_measures.md` for full list and code. Examples:
 
 
 
----
-
 ## Data Dictionary
-See `docs/data_dictionary.md` for column descriptions.
+See the full data dictionary here: [docs/data_dictionary.md](docs/data_dictionary.md)
 
 ---
 
 ## License
-MIT — see `LICENSE` file.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file.
+
 
 ---
 
