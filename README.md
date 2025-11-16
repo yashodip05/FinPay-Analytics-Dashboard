@@ -74,7 +74,6 @@ See `docs/dax_measures.md` for full list and code. Examples:
 ## Screenshots
 
 ## 📸 Dashboard Screenshots
-## 📸 Dashboard Screenshots
 
 <table>
 <tr>
