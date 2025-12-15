@@ -70,7 +70,7 @@ Payment Method Share
 Category Revenue (Pareto)
 Revenue Trend
 📸 Screenshot:
-➡️ <img src="docs/screenshots/Overview.png" width="600">
+➡️ <img src=""C:\Users\Yash Kamble\Desktop\FinPay Analysis\docs\screenshots\Screenshot 2025-12-15 at 4.45.32 PM.jpg"" width="600">
 
 2️⃣ User Insights
 Active users trend
