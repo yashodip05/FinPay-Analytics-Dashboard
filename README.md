@@ -149,10 +149,10 @@ MIT License
 👉 LICENSE
 
 👤 Author
-Created by: Yash Kamble
+Created by: Yashodip Kamble
 If you found this useful, please ⭐ star the repository!
 
 ⭐ Want to Support?
 Star the repo
-Share on LinkedIn & tag @Yash Kamble
+Share on LinkedIn & tag @Yashodip Kamble
 Fork & build your own version
