@@ -1,33 +1,37 @@
-🎨 FinPay Analytics Dashboard
+# 🎨 FinPay Analytics Dashboard  
+**Google Pay–Inspired | Built in Power BI**
 
-Google Pay–Inspired | Built in Power BI
+---
 
-📌 Project Overview
+## 📌 Project Overview
 
-FinPay Analytics Dashboard is a complete end-to-end Power BI project built using a 120K+ synthetic fintech dataset, modeled and visualized using a design inspired by Google Pay.
+**FinPay Analytics Dashboard** is an end-to-end Power BI project built using a **120K+ synthetic fintech transaction dataset**.  
+The data is modeled using a **Fact–Dimension (Star Schema)** approach and visualized with a **Google Pay–inspired UI**.
 
-The dashboard analyzes:
+This dashboard helps analyze:
+- User behavior
+- Merchant performance
+- Payment success & failures
+- Promotion effectiveness
+- Time-based trends (MoM%)
+- Hour & day usage patterns
 
-User behavior
+---
 
-Merchant performance
+## 🧠 Skills Demonstrated
 
-Payment success/failure
+- Data cleaning & transformation (Power Query)
+- Fact & Dimension data modeling
+- Advanced DAX (MoM%, Pareto, conversion rates)
+- KPI design & storytelling
+- Interactive dashboard UX
+- FinTech analytics concepts
 
-Promo usage
+---
 
-Trends (MoM%)
+## 📂 Project Structure
 
-Hour/day activity patterns
 
-Skills demonstrated:
-
-✔ Data cleaning & modeling
-✔ Fact–Dimension schema design
-✔ DAX measure creation
-✔ MoM%, Pareto, and heatmap visuals
-✔ UI/UX following Google Pay theme
-✔ Business insights storytelling
 
 📂 Project Structure
 FinPay-Analysis/
@@ -60,99 +64,106 @@ FinPay-Analysis/
 ├── LICENSE
 └── README.md
 
-📊 Dashboard Pages
-1️⃣ Overview Page
-Total Revenue
-Transaction Count
-Avg Ticket
-Promo Conversion Rate
-Payment Method Share
-Category Revenue (Pareto)
-Revenue Trend
-📸 Screenshot:
-➡️ <img src="docs/screenshots/Overview.png" width="600">
 
-2️⃣ User Insights
-Active users trend
-Returning users
-Promo vs Non-Promo users
-Users by device
-Users by country
-Top users by revenue
-Hour vs Day heatmap
-📸 Screenshot:
-➡️ <img src="docs/screenshots/Users.png" width="600">
+---
 
-3️⃣ Merchant Insights
-Top merchants by revenue
-Merchant category performance
-Merchant activity patterns
-Promo usage impact
-📸 Screenshot:
-➡️ <img src="docs/screenshots/Merchants.png" width="600">
+## 📊 Dashboard Pages
 
-4️⃣ Payment Insights
-Transaction success rate
-Failed transaction reasons
-Refunds
-Revenue by payment method
-📸 Screenshot:
-➡️ <img src="docs/screenshots/Payments.png" width="600">
+### 🔹 1. Overview Page
+- Total Revenue
+- Transaction Count
+- Average Ticket Size
+- Promo Conversion Rate
+- Category-wise Revenue (Pareto)
+- Revenue Trend
+- Payment Method Split
 
-5️⃣ Trends Page
-Revenue MoM%
-Transaction MoM%
-Promo vs Non-Promo revenue
-Revenue by payment method
-Hour/Day activity heatmap
-📸 Screenshot:
-➡️ <img src="docs/screenshots/Trends.png" width="600">
+<img src="docs/screenshots/Overview.jpg" width="750"/>
 
-📘 Data Dictionary
-👉 Click: docs/data_dictionary.md
+---
 
-🔧 How to Use This Project
-1. Clone the repository
+### 🔹 2. User Insights
+- Active & returning users
+- Promo vs non-promo users
+- Users by device & country
+- Top users by revenue
+- Hour vs day heatmap
+
+<img src="docs/screenshots/Users.jpg" width="750"/>
+
+---
+
+### 🔹 3. Merchant Insights
+- Top merchants by revenue
+- Category performance
+- Promo impact on merchants
+- Merchant activity trends
+
+<img src="docs/screenshots/Merchants.jpg" width="750"/>
+
+---
+
+### 🔹 4. Payment Insights
+- Transaction success rate
+- Failed transaction reasons
+- Refund analysis
+- Revenue by payment method
+
+<img src="docs/screenshots/Payments.jpg" width="750"/>
+
+---
+
+### 🔹 5. Trends Page
+- Revenue MoM%
+- Transaction MoM%
+- Promo vs non-promo revenue
+- Payment method trends
+- Weekday vs hour heatmap
+
+<img src="docs/screenshots/Trends.jpg" width="750"/>
+
+---
+
+## 📘 Data Dictionary
+
+Detailed column-level documentation:  
+👉 [docs/data_dictionary.md](docs/data_dictionary.md)
+
+---
+
+## 🔧 How to Use This Project
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/yashodip05/FinPay-Analysis.git
 
-2. Open the Power BI file
-📄 PBIX File:
-👉 powerbi/FinPayDashboard.pbix
+2️⃣ Open Power BI file
+PowerBI/FinPayDashBoard.pbix
 
-3. Load the Transformed Data
-All CSVs used in the model:
-👉 data/transformed/
+3️⃣ Load the data
+Ensure Power BI points to:
+data/transformed/ → fact & dimension tables
+data/raw/transactions_large.csv → original dataset
 
-Raw data:
-👉 data/raw/transactions_large.csv
-
-4. Explore & Modify
-You may add:
-✔ New visuals
-✔ Additional DAX measures
-✔ Themes
-✔ More data sources
+4️⃣ Explore & extend
+You can:
+Add new DAX measures
+Modify visuals
+Apply new themes
+Connect real-world datasets
 
 🏷 Repository Topics
-powerbi
-data-analysis
-data-visualization
-analytics-dashboard
-fintech
-google-pay
-dax
-business-intelligence
-portfolio-project
+powerbi · data-analysis · data-visualization · fintech · google-pay ·
+analytics-dashboard · dax · business-intelligence · portfolio-project
 
-📜 License
-MIT License
-👉 LICENSE
+## 📜 License
+This project is licensed under the **MIT License**.  
+👉 [View License](LICENSE)
+
 
 👤 Author
-Created by: Yashodip Kamble
-If you found this useful, please ⭐ star the repository!
-
-⭐ Want to Support?
-Star the repo
-Share on LinkedIn & tag @Yashodip Kamble
-Fork & build your own version
+Yashodip Kamble
+If you found this project useful:
+⭐ Star the repository
+🔁 Fork it
+🔗 Share on LinkedIn
