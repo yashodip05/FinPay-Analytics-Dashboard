@@ -29,23 +29,22 @@ This dashboard helps analyze:
 
 ---
 
+```md
 ## 📂 Project Structure
 
-
-
-📂 Project Structure
+```text
 FinPay-Analysis/
 ├── data/
 │   ├── raw/
-│   │    └── transactions_large.csv
+│   │   └── transactions_large.csv
 │   └── transformed/
-│        ├── dim_user.csv
-│        ├── dim_merchant.csv
-│        ├── dim_date.csv
-│        ├── dim_country.csv
-│        ├── dim_device.csv
-│        ├── dim_payment_method.csv
-│        └── fact_transactions.csv
+│       ├── dim_user.csv
+│       ├── dim_merchant.csv
+│       ├── dim_date.csv
+│       ├── dim_country.csv
+│       ├── dim_device.csv
+│       ├── dim_payment_method.csv
+│       └── fact_transactions.csv
 │
 ├── powerbi/
 │   └── FinPay_Dashboard.pbix
@@ -53,14 +52,14 @@ FinPay-Analysis/
 ├── docs/
 │   ├── data_dictionary.md
 │   └── screenshots/
-│        ├── Overview.png
-│        ├── Users.png
-│        ├── Merchants.png
-│        ├── Payments.png
-│        ├── Trends.png
-│        └── Banner.png
+│       ├── Overview.jpg
+│       ├── Users.jpg
+│       ├── Merchants.jpg
+│       ├── Payments.jpg
+│       ├── Trends.jpg
+│       └── Banner.png
 │
-├──.gitignore
+├── .gitignore
 ├── LICENSE
 └── README.md
 
@@ -126,9 +125,14 @@ Detailed column-level documentation:
 
 ---
 
+```md
 ## 🔧 How to Use This Project
 
 ### 1️⃣ Clone the repository
+
+Repository URL:  
+👉 https://github.com/yashodip05/FinPay-Analytics-Dashboard
+
 ```bash
 git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard
 
@@ -151,7 +155,9 @@ Connect real-world datasets
 powerbi · data-analysis · data-visualization · fintech · google-pay ·
 analytics-dashboard · dax · business-intelligence · portfolio-project
 
+```md
 ## 📜 License
+
 This project is licensed under the **MIT License**.  
 👉 [View License](LICENSE)
 
