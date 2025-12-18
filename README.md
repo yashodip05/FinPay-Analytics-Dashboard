@@ -62,8 +62,8 @@ FinPay-Analysis/
 ├── LICENSE
 └── README.md
 
-## 📊 Dashboard Pages ### 
-🔹 1. Overview Page 
+## 📊 Dashboard Pages
+ ### 🔹 1. Overview Page 
 - Total Revenue 
 - Transaction Count 
 - Average Ticket Size 
@@ -73,7 +73,7 @@ FinPay-Analysis/
 - Payment Method Split 
 <img src="docs/screenshots/Overview.jpg" width="750"/> 
 
-🔹 2. User Insights
+###🔹 2. User Insights
 - Active & returning users
 - Promo vs non-promo users
 - Users by device & country
@@ -81,21 +81,21 @@ FinPay-Analysis/
 - Hour vs day heatmap
 <img src="docs/screenshots/Users.jpg" width="750"/>
 
-🔹 3. Merchant Insights
+###🔹 3. Merchant Insights
 - Top merchants by revenue
 - Category performance
 - Promo impact on merchants
 - Merchant activity trends
 <img src="docs/screenshots/Merchants.jpg" width="750"/>
 
-🔹 4. Payment Insights
+###🔹 4. Payment Insights
 - Transaction success rate
 - Failed transaction reasons
 - Refund analysis
 - Revenue by payment method
 <img src="docs/screenshots/Payments.jpg" width="750"/>
 
-🔹 5. Trends Page
+###🔹 5. Trends Page
 - Revenue MoM%
 - Transaction MoM%
 - Promo vs non-promo revenue
