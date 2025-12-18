@@ -30,7 +30,7 @@ This dashboard helps analyze:
 ---
 
 ## 📂 Project Structure
-
+```text
 FinPay-Analysis/
 ├── data/
 │   ├── raw/
@@ -60,6 +60,7 @@ FinPay-Analysis/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 ## 📊 Dashboard Pages
 
