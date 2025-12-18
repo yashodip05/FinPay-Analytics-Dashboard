@@ -29,7 +29,6 @@ This dashboard helps analyze:
 
 ---
 
-```md
 ## 📂 Project Structure
 
 ```text
@@ -125,7 +124,7 @@ Detailed column-level documentation:
 
 ---
 
-```md
+
 ## 🔧 How to Use This Project
 
 ### 1️⃣ Clone the repository
