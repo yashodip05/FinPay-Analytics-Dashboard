@@ -131,7 +131,7 @@ Detailed column-level documentation:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard
+git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard.git
 
 2️⃣ Open Power BI file
 PowerBI/FinPayDashBoard.pbix
@@ -154,7 +154,8 @@ analytics-dashboard · dax · business-intelligence · portfolio-project
 
 ## 📜 License
 This project is licensed under the **MIT License**.  
-👉 [View License](LICENSE)
+ 👉 [View License](./LICENSE)
+
 
 
 👤 Author
