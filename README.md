@@ -77,7 +77,7 @@ FinPay-Analysis/
 - Revenue Trend
 - Payment Method Split
 
-<img src="docs/screenshots/Overview.jpg" width="550"/>
+<img src="docs/screenshots/Overview.jpg" width="750"/>
 
 ---
 
@@ -88,8 +88,7 @@ FinPay-Analysis/
 - Top users by revenue
 - Hour vs day heatmap
 
-<img src="docs/screenshots/Users.jpg" width="550"/>
-
+<img src="docs/screenshots/Users.jpg" width="750"/>
 ---
 
 ### 🔹 3. Merchant Insights
@@ -98,8 +97,7 @@ FinPay-Analysis/
 - Promo impact on merchants
 - Merchant activity trends
 
-<img src="docs/screenshots/Merchants.jpg" width="550"/>
-
+<img src="docs/screenshots/Merchants.jpg" width="750"/>
 ---
 
 ### 🔹 4. Payment Insights
@@ -108,8 +106,7 @@ FinPay-Analysis/
 - Refund analysis
 - Revenue by payment method
 
-<img src="docs/screenshots/Payments.jpg" width="550"/>
-
+<img src="docs/screenshots/Payments.jpg" width="750"/>
 ---
 
 ### 🔹 5. Trends Page
@@ -119,8 +116,7 @@ FinPay-Analysis/
 - Payment method trends
 - Weekday vs hour heatmap
 
-<img src="docs/screenshots/Trends.jpg" width="550"/>
-
+<img src="docs/screenshots/Trends.jpg" width="750"/>
 ---
 
 ## 📘 Data Dictionary
