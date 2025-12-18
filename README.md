@@ -157,9 +157,8 @@ This project is licensed under the **MIT License**.
  👉 [View License](./LICENSE)
 
 
-
-👤 Author
-Yashodip Kamble
+```
+👤 Author : Yashodip Kamble
 If you found this project useful:
 ⭐ Star the repository
 🔁 Fork it
