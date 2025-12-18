@@ -63,16 +63,19 @@ FinPay-Analysis/
 └── README.md
 
 ## 📊 Dashboard Pages
- ### 🔹 1. Overview Page 
-- Total Revenue 
-- Transaction Count 
-- Average Ticket Size 
-- Promo Conversion Rate 
-- Category-wise Revenue (Pareto) 
-- Revenue Trend 
+
+### 🔹 1. Overview Page
+- Total Revenue
+- Transaction Count
+- Average Ticket Size
+- Promo Conversion Rate
+- Category-wise Revenue (Pareto)
+- Revenue Trend
 - Payment Method Split
- 
-<img src="docs/screenshots/Overview.jpg" width="750"/> 
+
+<img src="docs/screenshots/Overview.jpg" width="750"/>
+
+---
 
 ### 🔹 2. User Insights
 - Active & returning users
@@ -83,6 +86,8 @@ FinPay-Analysis/
 
 <img src="docs/screenshots/Users.jpg" width="750"/>
 
+---
+
 ### 🔹 3. Merchant Insights
 - Top merchants by revenue
 - Category performance
@@ -91,6 +96,8 @@ FinPay-Analysis/
 
 <img src="docs/screenshots/Merchants.jpg" width="750"/>
 
+---
+
 ### 🔹 4. Payment Insights
 - Transaction success rate
 - Failed transaction reasons
@@ -98,6 +105,8 @@ FinPay-Analysis/
 - Revenue by payment method
 
 <img src="docs/screenshots/Payments.jpg" width="750"/>
+
+---
 
 ### 🔹 5. Trends Page
 - Revenue MoM%
@@ -108,12 +117,20 @@ FinPay-Analysis/
 
 <img src="docs/screenshots/Trends.jpg" width="750"/>
 
- --- ## 📘 Data Dictionary Detailed column-level documentation:
- 👉 [docs/data_dictionary.md](docs/data_dictionary.md)
+---
 
- --- ## 🔧 How to Use This Project 
+## 📘 Data Dictionary
+
+Detailed column-level documentation:  
+👉 [docs/data_dictionary.md](docs/data_dictionary.md)
+
+---
+
+## 🔧 How to Use This Project
+
 ### 1️⃣ Clone the repository
-bash
+
+```bash
 git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard
 
 2️⃣ Open Power BI file
