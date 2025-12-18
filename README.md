@@ -130,7 +130,7 @@ Detailed column-level documentation:
 
 ### 1️⃣ Clone the repository
 
-```bash
+
 git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard.git
 
 2️⃣ Open Power BI file
