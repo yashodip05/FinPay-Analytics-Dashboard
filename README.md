@@ -133,7 +133,7 @@ Repository URL:
 👉 https://github.com/yashodip05/FinPay-Analytics-Dashboard
 
 ```bash
-git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard
+git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard```
 
 2️⃣ Open Power BI file
 PowerBI/FinPayDashBoard.pbix
@@ -154,7 +154,7 @@ Connect real-world datasets
 powerbi · data-analysis · data-visualization · fintech · google-pay ·
 analytics-dashboard · dax · business-intelligence · portfolio-project
 
-```md
+
 ## 📜 License
 
 This project is licensed under the **MIT License**.  
