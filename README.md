@@ -31,7 +31,6 @@ This dashboard helps analyze:
 
 ## 📂 Project Structure
 
-```text
 FinPay-Analysis/
 ├── data/
 │   ├── raw/
