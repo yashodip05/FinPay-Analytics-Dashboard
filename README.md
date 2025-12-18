@@ -133,7 +133,7 @@ Detailed column-level documentation:
 
 git clone https://github.com/yashodip05/FinPay-Analytics-Dashboard.git
 
-```
+```text
 2️⃣ Open Power BI file :
 PowerBI/FinPayDashBoard.pbix
 
@@ -151,16 +151,18 @@ Connect real-world datasets
 
 🏷 Repository Topics
 powerbi · data-analysis · data-visualization · fintech · google-pay ·
-analytics-dashboard · dax · business-intelligence · portfolio-project```
+analytics-dashboard · dax · business-intelligence · portfolio-project
+```
 
 ## 📜 License
 This project is licensed under the **MIT License**.  
  👉 [View License](./LICENSE)
 
 
-```
+```text
 👤 Author : Yashodip Kamble
 If you found this project useful:
 ⭐ Star the repository
 🔁 Fork it
 🔗 Share on LinkedIn
+```
