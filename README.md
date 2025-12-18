@@ -70,37 +70,42 @@ FinPay-Analysis/
 - Promo Conversion Rate 
 - Category-wise Revenue (Pareto) 
 - Revenue Trend 
-- Payment Method Split 
+- Payment Method Split
+ 
 <img src="docs/screenshots/Overview.jpg" width="750"/> 
 
-###🔹 2. User Insights
+### 🔹 2. User Insights
 - Active & returning users
 - Promo vs non-promo users
 - Users by device & country
 - Top users by revenue
 - Hour vs day heatmap
+
 <img src="docs/screenshots/Users.jpg" width="750"/>
 
-###🔹 3. Merchant Insights
+### 🔹 3. Merchant Insights
 - Top merchants by revenue
 - Category performance
 - Promo impact on merchants
 - Merchant activity trends
+
 <img src="docs/screenshots/Merchants.jpg" width="750"/>
 
-###🔹 4. Payment Insights
+### 🔹 4. Payment Insights
 - Transaction success rate
 - Failed transaction reasons
 - Refund analysis
 - Revenue by payment method
+
 <img src="docs/screenshots/Payments.jpg" width="750"/>
 
-###🔹 5. Trends Page
+### 🔹 5. Trends Page
 - Revenue MoM%
 - Transaction MoM%
 - Promo vs non-promo revenue
 - Payment method trends
 - Weekday vs hour heatmap
+
 <img src="docs/screenshots/Trends.jpg" width="750"/>
 
  --- ## 📘 Data Dictionary Detailed column-level documentation:
